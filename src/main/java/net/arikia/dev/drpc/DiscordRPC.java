@@ -178,8 +178,6 @@ public final class DiscordRPC {
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
-
-		System.load(f.getAbsolutePath());
 	}
 
 	private static void copyFile(final InputStream input, final OutputStream output) throws IOException {
